@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Set;
 
 public class Anagram {
-    //O(n)
+     //O(n)
     public static boolean isAnagram(String word, String part) {
         if (part == null || part.isEmpty()) {
             return false;
